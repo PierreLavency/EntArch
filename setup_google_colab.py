@@ -18,7 +18,7 @@ def download_github_lfs(path):
     template = "wget '" + url + "' -O '{}'"
     os.system(template.format(rep, branch, path, filename))
 
-def load_data(dim=26)
+def load_data(dim=26) :
     path="/Data/CBL_"+str(dim)+"_features.csv"
     download_github_code(path)
         
